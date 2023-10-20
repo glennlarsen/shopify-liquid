@@ -74,7 +74,16 @@
     "271cfee4-bdd5-4653-a254-cc1cb8f64423": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% unless page.title == 'Liquid' %}\nThe page title is not still Liquid\n{% endunless %}",
+        "custom_liquid": "{% unless page.title == 'Liquid' %}\nThe page title is not Liquid\n{% endunless %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "cd873f08-e674-4f70-ac31-7e5bf4d01cf3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.title == 'Liquid' %}\nThe page title is Liquid\n{% else %}\nThe page title is not Liquid\n{% endif %}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -120,6 +129,7 @@
     "f284c4ae-5cd3-4f7e-908c-03c493e4066b",
     "49c58e01-7a9f-4ab7-ba53-5cbadbd9d63a",
     "271cfee4-bdd5-4653-a254-cc1cb8f64423",
+    "cd873f08-e674-4f70-ac31-7e5bf4d01cf3",
     "e53637ef-01eb-4812-a140-4fbed523453d",
     "5f9f7165-b3e2-49b6-bd6b-df85b7f09258"
   ]
